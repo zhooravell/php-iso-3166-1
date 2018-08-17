@@ -13,10 +13,21 @@
         "php": ">=5.6",
         "ext-mbstring": "*"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
+    },
     "autoload": {
         "files": [
             "resources/iso-3166-1-alpha-3.php",
             "resources/iso-3166-1-alpha-2.php"
-        ]
-    }
+        ],
+        "psr-4": {
+            "Iso\\3166\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Iso\\3166\\Tests\\": "tests/"
+        }
+    },
 }
