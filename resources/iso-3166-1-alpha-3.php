@@ -1,7 +1,9 @@
 <?php
 
 /**
- * @see
+ * ISO 3166-1 alpha-3 codes are three-letter country codes defined in ISO 3166-1.
+ *
+ * @see https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3
  */
 return [
     'ABW' => 'Aruba',
@@ -55,7 +57,7 @@ return [
     'COK' => 'Cook Islands',
     'COL' => 'Colombia',
     'COM' => 'Comoros',
-    'CPV' => 'Cape Verde',
+    'CPV' => 'Cabo Verde',
     'CRI' => 'Costa Rica',
     'CUB' => 'Cuba',
     'CUW' => 'Curaçao',
@@ -143,7 +145,7 @@ return [
     'MAF' => 'Saint Martin (French part)',
     'MAR' => 'Morocco',
     'MCO' => 'Monaco',
-    'MDA' => 'Moldova, Republic of',
+    'MDA' => 'Moldova',
     'MDG' => 'Madagascar',
     'MDV' => 'Maldives',
     'MEX' => 'Mexico',
@@ -188,7 +190,7 @@ return [
     'PRK' => 'Korea, Democratic People\'s Republic of',
     'PRT' => 'Portugal',
     'PRY' => 'Paraguay',
-    'PSE' => 'Palestinian Territory, Occupied',
+    'PSE' => 'Palestine, State of',
     'PYF' => 'French Polynesia',
     'QAT' => 'Qatar',
     'REU' => 'Réunion',
@@ -215,7 +217,7 @@ return [
     'SVK' => 'Slovakia',
     'SVN' => 'Slovenia',
     'SWE' => 'Sweden',
-    'SWZ' => 'Swaziland',
+    'SWZ' => 'Eswatini',
     'SXM' => 'Sint Maarten (Dutch part)',
     'SYC' => 'Seychelles',
     'SYR' => 'Syrian Arab Republic',
@@ -238,9 +240,9 @@ return [
     'UKR' => 'Ukraine',
     'UMI' => 'United States Minor Outlying Islands',
     'URY' => 'Uruguay',
-    'USA' => 'United States',
+    'USA' => 'United States of America',
     'UZB' => 'Uzbekistan',
-    'VAT' => 'Holy See (Vatican City State)',
+    'VAT' => 'Holy See',
     'VCT' => 'Saint Vincent and the Grenadines',
     'VEN' => 'Venezuela, Bolivarian Republic of',
     'VGB' => 'Virgin Islands, British',

@@ -11,6 +11,7 @@
     ],
     "require": {
         "php": ">=5.6",
+        "ext-json": "*",
         "ext-mbstring": "*"
     },
     "require-dev": {
@@ -18,16 +19,15 @@
     },
     "autoload": {
         "files": [
-            "resources/iso-3166-1-alpha-3.php",
-            "resources/iso-3166-1-alpha-2.php"
+            "./src/functions.php"
         ],
         "psr-4": {
-            "Iso\\3166\\": "src/"
+            "Iso\\Countries\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Iso\\3166\\Tests\\": "tests/"
+            "Iso\\Countries\\Tests\\": "tests/"
         }
-    },
+    }
 }
