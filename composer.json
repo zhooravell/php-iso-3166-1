@@ -1,8 +1,10 @@
 {
     "name": "zhuravel/php-iso-3166-1",
     "type": "library",
-    "description": "PHP ISO 3166-1 helper library",
-    "license": "MIT License",
+    "description": "ISO 3166-1 PHP library",
+    "keywords": ["ISO 3166", "ISO", "3166", "3166-1", "countries", "library"],
+    "homepage": "https://github.com/zhooravell/php-iso-3166-1",
+    "license": "MIT",
     "authors": [
         {
             "name": "Roman Zhuravel",
@@ -15,7 +17,7 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6.4 || ^7.0"
+        "phpunit/phpunit": "^5.7.11 || ^6.4 || ^7.0"
     },
     "autoload": {
         "files": [

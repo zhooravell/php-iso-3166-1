@@ -1,5 +1,5 @@
 # PHP ISO-3166-1 library
-ISO 3166-1 php helper
+> A PHP library providing ISO 3166-1 data.
 
 ## Example #1
 ```php
@@ -36,3 +36,8 @@ $canada = $factory->fromAlphaTwoCode('CA');
 
 var_dump($canada);
 ```
+
+## Source(s)
+
+* [ISO 3166-1](http://en.wikipedia.org/wiki/ISO_3166-1) by [Wikipedia](http://www.wikipedia.org) licensed under [CC BY-SA 3.0 Unported License](http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License)
+* [www.iso.org](http://www.iso.org)
