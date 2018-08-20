@@ -1,7 +1,7 @@
 # PHP ISO-3166-1 library
 > A PHP library providing ISO 3166-1 data.
 
-[![Build Status](https://img.shields.io/travis/zhooravell/php-iso-3166-1/master.svg?style=flat-square)](https://travis-ci.org/zhooravell/php-iso-3166-1)
+[![Build Status](https://travis-ci.com/zhooravell/php-iso-3166-1.svg?branch=master)](https://travis-ci.com/zhooravell/php-iso-3166-1)
 [![codecov](https://codecov.io/gh/zhooravell/php-iso-3166-1/branch/master/graph/badge.svg)](https://codecov.io/gh/zhooravell/php-iso-3166-1)
 [![License](https://img.shields.io/packagist/l/zhuravel/php-iso-3166-1.svg?style=flat-square)](https://packagist.org/packages/zhuravel/php-iso-3166-1)
 
