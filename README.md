@@ -5,6 +5,7 @@
 [![codecov](https://codecov.io/gh/zhooravell/php-iso-3166-1/branch/master/graph/badge.svg)](https://codecov.io/gh/zhooravell/php-iso-3166-1)
 [![License](https://img.shields.io/packagist/l/zhuravel/php-iso-3166-1.svg?style=flat-square)](https://packagist.org/packages/zhuravel/php-iso-3166-1)
 [![Total Download](https://img.shields.io/packagist/dt/zhuravel/php-iso-3166-1.svg)](https://packagist.org/packages/zhuravel/php-iso-3166-1)
+[![Latest Stable Version](https://img.shields.io/packagist/v/zhuravel/php-iso-3166-1.svg)](https://packagist.org/packages/zhuravel/php-iso-3166-1)
 
 ## Installing
 
