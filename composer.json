@@ -15,11 +15,12 @@
         "ext-mbstring": "*"
     },
     "require-dev": {
-        "phpunit/phpunit": "^4.8.35 || ^5.7 || ^6.4 || ^7.0"
+        "phpunit/phpunit": "^6.4 || ^7.0"
     },
     "autoload": {
         "files": [
-            "./src/functions.php"
+            "./src/functions.php",
+            "./src/constants.php"
         ],
         "psr-4": {
             "Iso\\Countries\\": "src/"
