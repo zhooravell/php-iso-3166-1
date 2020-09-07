@@ -22,11 +22,11 @@ class CountryTest extends TestCase
         $name = 'Ukraine';
         $country = new Country($code, $name);
 
-        self::assertEquals($code, $country->getCode(), '');
-        self::assertEquals($name, $country->getName(), '');
+        self::assertSame($code, $country->getCode(), '');
+        self::assertSame($name, $country->getName(), '');
 
-        self::assertEquals('804 Ukraine', (string) $country);
-        self::assertEquals('{"code":"804","name":"Ukraine"}', json_encode($country));
+        self::assertSame('804 Ukraine', (string) $country);
+        self::assertSame('{"code":"804","name":"Ukraine"}', json_encode($country));
     }
 
     /**
