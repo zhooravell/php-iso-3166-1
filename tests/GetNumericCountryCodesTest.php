@@ -18,9 +18,9 @@ class GetNumericCountryCodesTest extends TestCase
         self::assertCount(ISO_3166_1_COUNTRIES_NUMBER, $countries, 'Currently 249 countries in ISO 3166-1');
 
         foreach ($countries as $code => $name) {
-            self::assertEquals(ISO_3166_1_NUMERIC_CODE_LENGTH, mb_strlen($code), sprintf('Invalid code "%s". Country code should have exactly 3 characters', $code));
+            self::assertSame(ISO_3166_1_NUMERIC_CODE_LENGTH, mb_strlen($code), sprintf('Invalid code "%s". Country code should have exactly 3 characters', $code));
             self::assertNotEmpty($name, 'Country name should not be blank.');
-            self::assertTrue(is_numeric($code));
+            self::assertIsNumeric($code);
         }
     }
 }

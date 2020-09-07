@@ -82,7 +82,7 @@ class ISO3166CountryFactoryAlpha3Test extends TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    protected function setUp()
     {
         parent::setUp();
 

@@ -70,7 +70,7 @@ class ISO3166CountryFactoryNumericTest extends TestCase
     /**
      * {@inheritdoc}
      */
-    public function setUp()
+    protected function setUp()
     {
         parent::setUp();
 
